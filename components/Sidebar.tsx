@@ -6,6 +6,7 @@ import {
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -16,20 +17,24 @@ const Sidebar = () => {
 
   return (
     <div>
-      <img
+      <Image
         src='https://www.newsshare.in/wp-content/uploads/2017/04/Miniclip-8-Ball-Pool-Avatar-16.png'
         alt='avatar image'
         className='w-32 h-32 mx-auto rounded-full'
+        height='128'
+        width='128'
+        layout='intrinsic'
+        quality='100'
       />
       <h3 className='my-4 text-2xl font-medium tracking-wider font-kaushan'>
         <span className='text-green'>Shashanka </span>
         Nayak
       </h3>
-      <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full'>
+      <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>
         Fullstack Web Developer
       </p>
       <a
-        className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full'
+        className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'
         href=''
         download='name'
       >
