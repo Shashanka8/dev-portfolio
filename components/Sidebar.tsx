@@ -18,7 +18,7 @@ const Sidebar = () => {
   return (
     <div>
       <Image
-        src='https://www.newsshare.in/wp-content/uploads/2017/04/Miniclip-8-Ball-Pool-Avatar-16.png'
+        src='/images/profile.jpg'
         alt='avatar image'
         className='w-32 h-32 mx-auto rounded-full'
         height='128'
