@@ -8,23 +8,23 @@ import { Category } from '../types';
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
-  const [active, setActive] = useState('all');
+  // const [active, setActive] = useState('all');
 
   const [showDetail, setShowDetail] = useState<number | null>(null);
 
-  const handleFilterCategory = (category: Category | 'all') => {
-    if (category === 'all') {
-      setProjects(projectsData);
-      setActive(category);
-      return;
-    }
+  // const handleFilterCategory = (category: Category | 'all') => {
+  //   if (category === 'all') {
+  //     setProjects(projectsData);
+  //     setActive(category);
+  //     return;
+  //   }
 
-    const filteredProjects = projectsData.filter((project) =>
-      project.category.includes(category)
-    );
-    setProjects(filteredProjects);
-    setActive(category);
-  };
+  //   const filteredProjects = projectsData.filter((project) =>
+  //     project.category.includes(category)
+  //   );
+  //   setProjects(filteredProjects);
+  //   setActive(category);
+  // };
 
   return (
     <motion.div
@@ -35,10 +35,10 @@ const Projects = () => {
       animate='animate'
       exit='exit'
     >
-      <ProjectsNavbar
+      {/* <ProjectsNavbar
         handleFilterCategory={handleFilterCategory}
         active={active}
-      />
+      /> */}
 
       <motion.div
         className='relative grid grid-cols-12 gap-4 my-3'

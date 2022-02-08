@@ -32,9 +32,13 @@ const resume = () => {
           <h5 className='my-3 text-2xl font-bold'>Experience</h5>
           <div>
             <h5 className='my-2 text-xl font-bold'>Application Developer</h5>
-            <p className='font-semibold'>IBM/Kyndryl (2021-current)</p>
+            <p className='font-semibold'>
+              IBM/Kyndryl Solutions (May,2021-current)
+            </p>
             <p className='my-3'>
-              I&lsquo;m working as Full stack application developer.
+              I&lsquo;m working here as a Full stack application developer.
+              Working with automation team to provide a better way user can
+              access automation scripts.
             </p>
           </div>
         </motion.div>
