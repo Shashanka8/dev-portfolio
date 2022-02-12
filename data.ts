@@ -120,6 +120,24 @@ export const projects: IProject[] = [
   },
   {
     id: 3,
+    name: 'Instagram Clone',
+    description:
+      'An aplication where user can upload posts and can do like, comment on others post.',
+    image_path: '/images/instaClone.png',
+    deployed_url: 'https://insta-clone-ssn.vercel.app/',
+    github_url: 'https://github.com/Shashanka8/instagram-2.0',
+    category: ['next'],
+    key_techs: [
+      'Next.js',
+      'React',
+      'Tailwind CSS',
+      'Firebase v9',
+      'Recoil',
+      'NextAuth',
+    ],
+  },
+  {
+    id: 4,
     name: 'Google Clone',
     description: 'Google search engine clone where you can search anything.',
     image_path: '/images/googleClone.png',
@@ -129,7 +147,7 @@ export const projects: IProject[] = [
     key_techs: ['Next.js', 'React', 'Tailwind CSS'],
   },
   {
-    id: 4,
+    id: 5,
     name: 'TODO App',
     description: 'A simple TODO App built using Vanila JS.',
     image_path: '/images/todo.png',
@@ -139,7 +157,7 @@ export const projects: IProject[] = [
     key_techs: ['Javascript', 'Bootstrap'],
   },
   {
-    id: 5,
+    id: 6,
     name: 'Whack A Penguin',
     description: 'A simple Penguin game built using Vanila JS.',
     image_path: '/images/penguin.png',
