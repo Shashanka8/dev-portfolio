@@ -14,11 +14,11 @@ const index = () => {
       exit='exit'
     >
       <h5 className='my-3 font-medium'>
-        I am a Full-stack Web Developer having 2.8+ years of experience
-        currently working at Kyndryl Solutions formerly IBM GTS and I have
-        worked on multiple applications devloping from scratch to production
-        ready. I have completed by B.Tech. in Computer Science Engineering(CSE)
-        from VSSUT, Burla, Odisha.
+        I am a Full-stack Web Developer having 3+ years of experience currently
+        working at Kyndryl Solutions formerly IBM GTS and I have worked on
+        multiple applications devloping from scratch to production ready. I have
+        completed by B.Tech. in Computer Science Engineering(CSE) from VSSUT,
+        Burla, Odisha.
       </h5>
       <div
         className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100'
@@ -33,7 +33,7 @@ const index = () => {
           initial='initial'
           animate='animate'
         >
-          {services.map((service) => (
+          {services.map(service => (
             <motion.div
               variants={fadeInUp}
               key={service.title}
