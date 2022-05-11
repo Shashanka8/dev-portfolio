@@ -33,10 +33,10 @@ const resume = () => {
           <div>
             <h5 className='my-2 text-xl font-bold'>Application Developer</h5>
             <p className='font-semibold'>
-              IBM/Kyndryl Solutions (May,2021-current)
+              IBM/Kyndryl India (May&rsquo;2021-Apr&rsquo;2022)
             </p>
             <p className='my-3'>
-              I&lsquo;m working here as a Full stack application developer.
+              I was working as a Full stack application developer.
               Working with automation team to provide a better way user can
               access automation scripts.
             </p>
