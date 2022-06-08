@@ -14,8 +14,8 @@ const index = () => {
       exit='exit'
     >
       <h5 className='my-3 font-medium'>
-        I am a Full-stack Web Developer having 3+ years of experience currently
-        working at Kyndryl India formerly IBM GTS and I have worked on
+        I am a Full-stack Web Developer having 3.3+ years of professional experience. I was 
+        working earlier with Kyndryl India formerly IBM GTS and I have worked on
         multiple applications devloping from scratch to production ready. I have
         completed by B.Tech. in Computer Science Engineering(CSE) from VSSUT,
         Burla, Odisha.
